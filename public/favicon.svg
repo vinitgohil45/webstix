@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="fav-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="fav-facet" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0B1020" stroke="#29324B" stroke-width="1.5" />
+  <g transform="translate(0, 4)">
+    <path d="M6 10 L16 48 L26 26 L16 10 Z" fill="url(#fav-grad)" />
+    <path d="M16 48 L28 48 L32 34 L26 26 Z" fill="url(#fav-facet)" opacity="0.9" />
+    <path d="M28 48 L32 22 L36 48 Z" fill="url(#fav-grad)" />
+    <path d="M36 48 L48 48 L38 26 L32 34 Z" fill="url(#fav-facet)" opacity="0.9" />
+    <path d="M58 10 L48 48 L38 26 L48 10 Z" fill="url(#fav-grad)" />
+  </g>
+</svg>
